@@ -5,6 +5,19 @@ body{
 .selections{
     display: flex;
     justify-content: center ;
+    padding-top: 20px;
+    
+}
+
+.heading{
+    padding-top: 100px;
+    display:flex;
+    justify-content: center;
+    font-family:  Helvetica;
+    font-style: italic;
+    color: rgb(75, 3, 43);
+    background-color: blanchedalmond;
+    border-radius: 10px;
 }
 
 .selection{
@@ -13,7 +26,8 @@ body{
     outline: none;
     cursor: pointer;
     font-size: 5rem;
-    transition: 200ms;
+    transition: 150ms;
+    
 }
 
 .selection:hover{
@@ -36,7 +50,7 @@ body{
 .result-selection{
     opacity: .5;
 }
-.result-selection-winner{
+.winner{
     opacity: 1;
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
